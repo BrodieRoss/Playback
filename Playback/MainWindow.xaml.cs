@@ -31,7 +31,7 @@ namespace Playback
         private DispatcherTimer timer;
         private WasapiOut wasapiOut;
        // private SynchronizationContext synchronizationContext;
-        private MMDevice selectedRecordingDevice; //microphone device 
+        private MMDevice selectedRecordingDevice; //microphone 
         private MMDevice selectedPlaybackDevice;
         private WasapiCapture microphone;
         private AudioFileReader reader;
